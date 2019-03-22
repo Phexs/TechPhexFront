@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+.selector-for-some-widget {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  
+  html {
+      font-family: sans-serif;
+      line-height: 1.15;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;   
+  }
+  *{ 
+    /* box-sizing: border-box; */
+    
+}
+body{
+    display: block;
+    width: 100%;  
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+
+}
+
+    /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) { 
+    .container-fluid{
+        display: block;
+        margin: 10%;
+        margin-left: 30%; 
+        margin-right: 30%;
+        padding: 3%;
+        border-style: solid;
+        background-color: #ffffff;
+        border-block-end-color: #ffffff;
+        border-color: #f7f7f7; 
+        border-radius: 10px;
+    }
+
+ }
+/* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .container-fluid{
+        display: block;
+        margin: 10%;
+        margin-left: 30%; 
+        margin-right: 30%;
+        padding: 3%;
+        border-style: solid;
+        background-color: #ffffff;
+        border-block-end-color: #ffffff;
+        border-color: #f7f7f7; 
+        border-radius: 10px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+     .container-fluid{
+        display: block;
+        margin: 10%;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 3%;
+        border-radius: 10px;
+        border-style: solid;
+        background-color: #ffffff;
+        border-block-end-color: #ffffff;
+        border-color: #f7f7f7; 
+     }
+
+   }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .container-fluid{
+        display: block;
+        margin-right: 30%; 
+        margin-left: 30%; 
+        padding: 3%;
+        border-radius: 10px;
+        border-style: solid;
+        background-color: #ffffff;
+        border-block-end-color: #ffffff;
+        border-color: #f7f7f7; 
+    }
+ }
