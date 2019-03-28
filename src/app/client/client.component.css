@@ -1,0 +1,22 @@
+@media (min-width: 320px) { 
+    .container-fluid{
+        display: block;
+        padding: 3%; 
+        padding-left: 7%;
+        border-style: solid;
+        background-color: #ffffff;
+        border-block-end-color: #ffffff;
+        border-color: #f7f7f7; 
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .row{
+        display:-moz-inline-grid;
+    } 
+ }
+ .row{
+     display: -moz-inline-grid;
+ }
