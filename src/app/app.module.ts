@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ClientComponent } from './client/client.component';
 import { ConsultantComponent } from './consultant/consultant.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule} from './material/material.module';
 // import { RegisterComponent } from './register/register.component';
 
 @NgModule({
@@ -18,7 +20,9 @@ import { EmployeeComponent } from './employee/employee.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
