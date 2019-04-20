@@ -1,0 +1,35 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+button{
+    margin-right: 3rem;
+}
+.my-form{
+    text-align: center;
+    min-width: 150px;
+    max-width: auto;
+
+  }
+   
+  .full-width {
+    width: 100%;
+  }
+.my-card{
+    margin: auto;
+    margin-top: 13%;
+    max-width: 500px;
+}
+.heading{
+    text-align: center;
+}
+.profile-icon {
+    padding: 0 14px;
+  }
+.profile-icon:hover{
+color:#005ce6 ;
+background-color: #ffffff;
+border-width: 20px;
+border-radius: 70px;
+ 
+}
+  

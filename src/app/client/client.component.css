@@ -1,26 +1,35 @@
-@media (min-width: 320px) { 
-    .container-fluid{
-     
-        display: block;
-        padding: 3%; 
-        padding-left: 7%;
-        border-style: solid;
-        background-color: #ffffff;
-        border-block-end-color: #ffffff;
-        border-color: #f7f7f7; 
-        border-radius: 10px;
-        font-size: 16px;
-    }
-    .card{
-        width:auto;
-    }
-    .card-img-top{
-        width: 40px;
-    }
-    h1{
-        font-size: 16px;
-    }
-    .row{
-        display:-moz-inline-grid;
-    } 
- }
+.spacer {
+    flex: 1 1 auto;
+  }
+button{
+    margin-right: 3rem;
+}
+.my-form{
+    text-align: center;
+    min-width: 150px;
+    max-width: auto;
+
+  }
+   
+  .full-width {
+    width: 100%;
+  }
+.my-card{
+    margin: auto;
+    margin-top: 13%;
+    max-width: 500px;
+}
+.heading{
+    text-align: center;
+}
+.profile-icon {
+    padding: 0 14px;
+  }
+.profile-icon:hover{
+color:#005ce6 ;
+background-color: #ffffff;
+border-width: 20px;
+border-radius: 70px;
+ 
+}
+  

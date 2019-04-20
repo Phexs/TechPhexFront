@@ -1,11 +1,20 @@
 <div class="my-card">
   <mat-card class="employee-Card">
     <mat-card-content>
-        <mat-toolbar-row>
-            <span>Second Line</span>
-            <span class="example-spacer"></span>
-            <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
-          </mat-toolbar-row>
+        <mat-toolbar color="primary">
+          <mat-menu #appMenu="matMenu">
+            <button mat-menu-item>Menu 1</button>
+            <button mat-menu-item>Menu 2</button>
+          </mat-menu>
+          <button mat-flat-button [matMenuTriggerFor]="appMenu">Menu</button>
+          <span>Employee</span>
+          <span class="spacer"></span>
+          <mat-menu #profileMenu="matMenu">
+            <button mat-menu-item>Profile</button>
+              <button mat-menu-item>sign Out</button>
+                </mat-menu>
+            <mat-icon class="profile-icon" aria-hidden="false" [matMenuTriggerFor]="profileMenu" >account_circle</mat-icon>
+          </mat-toolbar>
     </mat-card-content>
   </mat-card>
 </div>

@@ -15,6 +15,10 @@
                      <mat-label>Last Name </mat-label>
                 <input  matInput type="text" placeholder="Last Name" name="lastName">
               </mat-form-field>
+                 <mat-form-field class="full-width" appearance="outline">
+                     <mat-label>Username </mat-label>
+                <input  matInput type="text" placeholder="username" name="username">
+              </mat-form-field>
   
             <mat-form-field class="full-width" appearance="outline">
                 <mat-label>Email Address</mat-label>
@@ -37,7 +41,7 @@
         <mat-card-actions class="mat-action">
             <button mat-raised-button (click)="login()" color="primary">Register</button>
               <div class="backToLogin">
-                <mat-label><a href="/">Back to Sign In </a></mat-label>
+                <mat-label><a routerLink="">Back to Sign In </a></mat-label>
             </div>
         </mat-card-actions>
   </mat-card>

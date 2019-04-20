@@ -22,10 +22,14 @@ button{
 .heading{
     text-align: center;
 }
-.example-icon {
+.profile-icon {
     padding: 0 14px;
   }
+.profile-icon:hover{
+color:#005ce6 ;
+background-color: #ffffff;
+border-width: 20px;
+border-radius: 70px;
+ 
+}
   
-  .example-spacer {
-    flex: 1 1 auto;
-  }

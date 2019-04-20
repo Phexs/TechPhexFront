@@ -1,46 +1,20 @@
-<div class="container-fluid">
-    <h1>Client page</h1>
-    <div class="row">
-        <div class="col-12 col-md-3">
-          <div class="card" >
-              <img src="assets/imgThumbnail.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Option 1</h5>
-              <p class="card-text">Some text</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      <div class="col-12 col-md-3">
-              <div class="card" >
-                  <img src="assets/imgThumbnail.png" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h5 class="card-title">Option 2</h5>
-                  <p class="card-text">Some text</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-        <div class="col-12 col-md-3">
-                <div class="card" >
-                  <img src="assets/imgThumbnail.png" height="auto" class="card-img-top" alt="">
-                  <div class="card-body">
-                    <h5 class="card-title">Option 3</h5>
-                    <p class="card-text">Some text</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-          </div>
-        <div class="col-12 col-md-3">
-                <div class="card" >
-                  <img src="assets/imgThumbnail.png" height="auto" class="card-img-top" alt="">
-                  <div class="card-body">
-                    <h5 class="card-title">Option 4</h5>
-                    <p class="card-text">Some text</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-        </div>
-      </div>
-    
+<div class="my-card">
+    <mat-card class="employee-Card">
+      <mat-card-content>
+          <mat-toolbar color="primary">
+            <mat-menu #appMenu="matMenu">
+              <button mat-menu-item>Menu 1</button>
+              <button mat-menu-item>Menu 2</button>
+            </mat-menu>
+            <button mat-flat-button [matMenuTriggerFor]="appMenu">Menu</button>
+            <span>Client</span>
+            <span class="spacer"></span>
+            <mat-menu #profileMenu="matMenu">
+              <button mat-menu-item>Profile</button>
+                <button mat-menu-item>sign Out</button>
+                  </mat-menu>
+              <mat-icon class="profile-icon" aria-hidden="false" [matMenuTriggerFor]="profileMenu" >account_circle</mat-icon>
+            </mat-toolbar>
+      </mat-card-content>
+    </mat-card>
   </div>

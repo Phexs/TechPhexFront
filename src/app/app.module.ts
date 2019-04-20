@@ -8,7 +8,9 @@ import { ConsultantComponent } from './consultant/consultant.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule} from './material/material.module';
-// import { RegisterComponent } from './register/register.component';
+import { RegisterComponent } from './register/register.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { MaterialModule} from './material/material.module';
     routingComponents,
     ClientComponent,
     ConsultantComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    RegisterComponent,
+    PageNotFoundComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
