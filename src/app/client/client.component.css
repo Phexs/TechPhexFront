@@ -33,3 +33,18 @@ border-radius: 70px;
  
 }
   
+mat-grid-tile{
+ text-align: center;  
+ display: inline;
+}
+mat-card{
+    text-align: center;
+}
+.requestCard{
+    text-align: center;
+}
+.requestEmployees{
+    text-align: center;
+    display: inline-block;
+   
+}
