@@ -30,21 +30,50 @@ color:#005ce6 ;
 background-color: #ffffff;
 border-width: 20px;
 border-radius: 70px;
- 
 }
   
-mat-grid-tile{
- text-align: center;  
- display: inline;
-}
 mat-card{
-    text-align: center;
+  text-align: center;
 }
+mat-grid-list{
+  margin-top: 3%;
+}
+mat-grid-tile{
+  text-align: center;  
+ }
+ .grid-content{
+   background-color: #ffffff;
+ }
 .requestCard{
     text-align: center;
 }
 .requestEmployees{
     text-align: center;
     display: inline-block;
-   
+
+}
+.requestCard{
+  background-color: #ecf0f3;
+}
+.iconPosition{
+  text-align: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+@media (min-width: 320px) { 
+  .iconPosition{
+       margin-right: 40px;
+      text-align: center;
+      align-items: center;
+  }
+  .grid-content{
+    /* background-color: #d4d6d8; */
+    border-radius: 5px; 
+  }
+  .requestCard{
+    /* background-color: #d4d6d8; */
+    text-align: center;
+    font-size: 16px;
+  }
 }

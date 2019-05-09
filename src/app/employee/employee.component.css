@@ -1,35 +1,79 @@
 .spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
 button{
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
 .my-form{
-    text-align: center;
-    min-width: 150px;
-    max-width: auto;
+  text-align: center;
+  min-width: 150px;
+  max-width: auto;
 
-  }
-   
-  .full-width {
-    width: 100%;
-  }
+}
+ 
+.full-width {
+  width: 100%;
+}
 .my-card{
-    margin: auto;
-    margin-top: 13%;
-    max-width: 500px;
+  margin: auto;
+  margin-top: 13%;
+  max-width: 500px;
 }
 .heading{
-    text-align: center;
+  text-align: center;
 }
 .profile-icon {
-    padding: 0 14px;
-  }
+  padding: 0 14px;
+}
 .profile-icon:hover{
 color:#005ce6 ;
 background-color: #ffffff;
 border-width: 20px;
 border-radius: 70px;
- 
 }
-  
+
+mat-card{
+text-align: center;
+}
+mat-grid-list{
+margin-top: 3%;
+}
+mat-grid-tile{
+text-align: center;  
+}
+.grid-content{
+ background-color: #ffffff;
+}
+.requestCard{
+  text-align: center;
+}
+.requestEmployees{
+  text-align: center;
+  display: inline-block;
+
+}
+.requestCard{
+background-color: #ecf0f3;
+}
+.iconPosition{
+text-align: center;
+align-items: center;
+padding-left: 15px;
+}
+
+@media (min-width: 320px) { 
+.iconPosition{
+     margin-right: 40px;
+    text-align: center;
+    align-items: center;
+}
+.grid-content{
+  /* background-color: #d4d6d8; */
+  border-radius: 5px; 
+}
+.requestCard{
+  /* background-color: #d4d6d8; */
+  text-align: center;
+  font-size: 16px;
+}
+}
