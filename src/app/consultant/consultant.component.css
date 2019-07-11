@@ -44,6 +44,9 @@ text-align: center;
 .grid-content{
  background-color: #ffffff;
 }
+.grid-content :hover{
+  background-color: #005ce6;
+ }
 .requestCard{
   text-align: center;
 }

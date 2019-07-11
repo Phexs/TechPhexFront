@@ -1,0 +1,13 @@
+<p class="component-title">
+  Testing Post Users
+</p>
+
+<mat-form-field class="full-width">
+  <input #_email matInput placeholder="First Name">
+</mat-form-field>
+
+<mat-form-field class="full-width">
+  <input #_password matInput placeholder="Last Name">
+</mat-form-field>
+
+<button (click)="addUser(_email.value, _password.value)" mat-raised-button color="primary">Add a user</button>

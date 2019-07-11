@@ -10,7 +10,7 @@ button{
     max-width: auto;
 
   }
-   
+    
   .full-width {
     width: 100%;
   }
@@ -43,6 +43,9 @@ mat-grid-tile{
  }
  .grid-content{
    background-color: #ffffff;
+ }
+ .grid-content :hover{
+  background-color: #005ce6;
  }
 .requestCard{
     text-align: center;

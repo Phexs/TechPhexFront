@@ -11,6 +11,11 @@ import { MaterialModule} from './material/material.module';
 import { RegisterComponent } from './register/register.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { LoginComponent } from './login/login.component';
+import { GetUsersComponent } from './get-users/get-users.component';
+import { PostUsersComponent } from './post-users/post-users.component';
+import { MysqlService } from '../app/mysql.service';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +26,10 @@ import { LoginComponent } from './login/login.component';
     EmployeeComponent,
     RegisterComponent,
     PageNotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    GetUsersComponent,
+    PostUsersComponent,
+    HttpClientModule
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,9 @@ import { LoginComponent } from './login/login.component';
     BrowserAnimationsModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [
+    MysqlService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
